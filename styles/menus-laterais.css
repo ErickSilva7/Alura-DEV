@@ -1,0 +1,75 @@
+.menu__lateral__esquerdo {
+    display: none;
+    margin-left: 2.6em;
+    flex-direction: column;
+    width: 11.8125em;
+    padding: 1em 0 1em 0;
+    float: left;
+}
+
+.menu {
+    width: 3.1875em;
+}
+
+.botao {
+    margin-top: 1em;
+}
+
+.menu__lateral__direito {
+    display: none;
+    flex-direction: column;
+    width: 17em;
+    float: right;
+
+}
+
+.seu__projeto {
+    width: 8.125em;
+}
+
+.menu__lateral__direito__box {
+    background: rgba(255, 255, 255, 0.16);
+    border: none;
+    border-radius: 8px;
+    padding-left: 14px;
+    outline: 0;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    gap: 8px;
+
+    width: 17;
+    height: 3.5em;
+}
+
+.descricao {
+    padding-bottom: 1.5em;
+}
+
+.menu__lateral__direito__item {
+    margin: 0.5em;
+}
+
+.personalizacao {
+    margin-top: 1.5em;
+    width: 10.625em;
+}
+
+.select select{
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.option {
+    background: rgba(255, 255, 255, 0.16);
+}
+
+@media (min-width: 1440px) {
+    .menu__lateral__esquerdo {
+        display: flex;
+    }
+    .menu__lateral__direito {
+        display: flex;
+    }
+}

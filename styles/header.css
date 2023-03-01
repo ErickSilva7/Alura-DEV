@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    margin: 2em 2em 2em 2em;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo__alura {
+    margin: 0.6em;
+}
+
+.barra__de__pesquisa {
+    background: rgba(255, 255, 255, 0.16);
+    border: none;
+    border-radius: 8px;
+    padding-left: 14px;
+    outline: 0;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    gap: 8px;
+    
+    width: 47em;
+    height: 3.5em;
+    
+    display: none;
+}
+
+.usuario {
+    display: none;
+}
+
+@media (min-width: 1440px) {
+    .barra__de__pesquisa {
+        display: flex;
+    }
+
+    .pesquisa__mobile {
+        display: none;
+    }
+
+    .usuario {
+        display: flex;
+    }
+}
