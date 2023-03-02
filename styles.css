@@ -1,7 +1,12 @@
 @import url(styles/header.css);
 @import url(styles/menus-laterais.css);
+@import url(styles/editor-codigo.css);
 
 body {
     background-color: #051D3B;
 }
 
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+}

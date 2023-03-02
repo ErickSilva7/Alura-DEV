@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 .menu__lateral__esquerdo {
     display: none;
     margin-left: 2.6em;
     flex-direction: column;
     width: 11.8125em;
     padding: 1em 0 1em 0;
-    float: left;
+    margin-right: 4.5875em;
 }
 
 .menu {
@@ -18,9 +20,7 @@
 .menu__lateral__direito {
     display: none;
     flex-direction: column;
-    width: 17em;
-    float: right;
-
+    width: 19em;
 }
 
 .seu__projeto {
@@ -39,8 +39,7 @@
     font-size: 16px;
     line-height: 24px;
     gap: 8px;
-
-    width: 17;
+    width: 17em;
     height: 3.5em;
 }
 
@@ -49,7 +48,7 @@
 }
 
 .menu__lateral__direito__item {
-    margin: 0.5em;
+    margin-bottom: 1em;
 }
 
 .personalizacao {
@@ -57,12 +56,40 @@
     width: 10.625em;
 }
 
-.select select{
-    background: rgba(255, 255, 255, 0.16);
+.option {
+    color: black;
 }
 
-.option {
-    background: rgba(255, 255, 255, 0.16);
+.select {
+    width: 18em;
+}
+
+.menu__lateral__direito__box__color__picker {
+    width: 18em;
+    height: 3.5em;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background: transparent;
+    padding-left: 2px;
+}
+
+.menu__lateral__direito__button {
+    width: 18em;
+    height: 3.5em;
+    cursor: pointer;
+    background: rgb(80, 129, 251);
+    border-radius: 8px;
+    border: none;
+    color: #051D3B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.menu__lateral__direito__button:hover {
+    background: rgb(104, 146, 255);
 }
 
 @media (min-width: 1440px) {

@@ -15,34 +15,40 @@
             <img src="assets/ALURA.svg" alt="Alura" class="logo__alura">
             <img src="assets/Subtract.svg" alt="DEV">
         </div>
-        <div>
-            <input type="text" class="barra__de__pesquisa" placeholder="Busque por algo">
-            <div class="pesquisa__mobile">
-                <a href=""><img src="assets/Lupa.svg" alt="Lupa"></a>
-                <img src="assets/Menu hamburguer.svg" alt="Menu hamburguer">
-            </div>
+
+        <input type="text" class="barra__de__pesquisa" placeholder="Busque por algo">
+
+        <div class="pesquisa__mobile">
+            <a href=""><img src="assets/Lupa.svg" alt="Lupa"></a>
+            <img src="assets/Menu hamburguer.svg" alt="Menu hamburguer">
         </div>
+        
         <img src="assets/usuario.svg" alt="usuario" class="usuario">
     </header>
     
-    <nav class="menu__lateral__esquerdo">
-        <img src="assets/Menu.svg" alt="Menu" class="menu">
-        <a href="index.html" class="botao"><img src="assets/Editor de código on.svg" alt="Editor de codigo"></a>
-        <a href="html/comunidade.html" class="botao"><img src="assets/Comunidade off.svg" alt="Comunidade"></a>
-    </nav>
+    <div class="conteudo">
+        <nav class="menu__lateral__esquerdo">
+            <img src="assets/Menu.svg" alt="Menu" class="menu">
+            <a href="index.html" class="botao"><img src="assets/Editor de código on.svg" alt="Editor de codigo"></a>
+            <a href="html/comunidade.html" class="botao"><img src="assets/Comunidade off.svg" alt="Comunidade"></a>
+        </nav>
 
-    <div class="menu__lateral__direito">
-        <img src="assets/Seu projeto.svg" alt="Seu projeto" class="seu__projeto menu__lateral__direito__item">
-        <input type="text" class="menu__lateral__direito__box menu__lateral__direito__item" placeholder="Nome do seu projeto">
-        <input type="text" class="menu__lateral__direito__box descricao menu__lateral__direito__item" placeholder="Descrição do seu projeto">
-        <img src="assets/Personalização.svg" alt="" class="personalizacao menu__lateral__direito__item">
-        <select class="menu__lateral__direito__box menu__lateral__direito__item">
-            <option>JavaScript</option>
-            <option>HTML</option>
-            <option>CSS</option>
-        </select>
-    </div>
+        <input type="text" class="editor__codigo">
 
+        <div class="menu__lateral__direito">
+            <img src="assets/Seu projeto.svg" alt="Seu projeto" class="seu__projeto menu__lateral__direito__item">
+            <input type="text" class="menu__lateral__direito__box menu__lateral__direito__item" placeholder="Nome do seu projeto">
+            <input type="text" class="menu__lateral__direito__box descricao menu__lateral__direito__item" placeholder="Descrição do seu projeto">
+            <img src="assets/Personalização.svg" alt="" class="personalizacao menu__lateral__direito__item">
+            <select class="menu__lateral__direito__box menu__lateral__direito__item select">
+                <option class="option">JavaScript</option>
+                <option class="option">HTML</option>
+                <option class="option">CSS</option>
+            </select>
+            <input type="color" value="#6BD1FF" class="menu__lateral__direito__box__color__picker menu__lateral__direito__item menu__lateral__direito__box">
+            <button class="menu__lateral__direito__item menu__lateral__direito__button">Salvar projeto</button>
+        </div>
+    </div>    
     
 </body>
 
