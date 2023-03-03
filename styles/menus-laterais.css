@@ -77,7 +77,7 @@
     width: 18em;
     height: 3.5em;
     cursor: pointer;
-    background: rgb(80, 129, 251);
+    background: rgba(80, 128, 251);
     border-radius: 8px;
     border: none;
     color: #051D3B;
@@ -89,7 +89,7 @@
 }
 
 .menu__lateral__direito__button:hover {
-    background: rgb(104, 146, 255);
+    background: rgb(150, 180, 255);
 }
 
 @media (min-width: 1440px) {

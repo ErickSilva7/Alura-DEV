@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.editor__codigo {
+    background: url(../assets/mac_buttons.svg);
+    background-repeat: no-repeat;
+    background-position-x: 16px;
+    background-position-y: 16px;
+
+    background-color: #141414;
+    color: white;
+    
+    padding: 16px;
+    padding-top: 56px;
+    border-color: #6BD1FF;
+    border-width: 32px;
+    border-radius: 8px;
+    border-style: solid;
+    outline: 0;
+
+    width: 656px;
+    height: 234px;
+
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    
+    min-block-size: 234px;
+    block-size: auto;
+    cursor: text;
+
+    display: none;   
+}
+
+.visualizador__highlight {
+    margin-top: 32px;
+    width: 752px;
+    height: 56px;
+    cursor: pointer;
+    background:  rgba(80, 129, 251, 0.08);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+
+    display: none;
+}
+
+.visualizador__highlight:hover {
+    background: rgba(80, 128, 251, 0.5)
+}
+
+
+@media (min-width: 1440px) {
+    .editor__codigo {
+        display: block;
+    }
+
+    .visualizador__highlight {
+        display: block;
+    }
+}
