@@ -3,7 +3,7 @@
 .cabecalho {
     display: flex;
     align-items: center;
-    margin: 2em 2em 2em 2em;
+    margin: 1rem;
     justify-content: space-between;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .logo__alura {
-    margin: 0.6em;
+    margin: 0.6rem;
 }
 
 .barra__de__pesquisa {
@@ -20,7 +20,7 @@
     border: none;
     border-radius: 8px;
     padding: 0;
-    padding-left: 16px;
+    padding-left: 1rem;
     outline: 0;
     color: white;
     font-family: 'Inter';
@@ -41,6 +41,10 @@
 }
 
 @media (min-width: 1440px) {
+    .cabecalho {
+        margin: 2rem;
+    }
+    
     .barra__de__pesquisa {
         display: flex;
     }
