@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraDEV</title>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles/reset.css"><link rel="stylesheet" href="styles/dracula.css">
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <input type="text" class="barra__de__pesquisa" placeholder="Busque por algo">
 
         <div class="pesquisa__mobile">
-            <a href=""><img src="assets/Lupa.svg" alt="Lupa"></a>
+            <img src="assets/Lupa.svg" alt="Lupa">
             <img src="assets/Menu hamburguer.svg" alt="Menu hamburguer">
         </div>
         
@@ -34,7 +35,9 @@
         </nav>
         
         <div>
-            <code spellcheck="false" contenteditable="true" class="editor__codigo"></code>
+            <div>
+                <code spellcheck="false" contenteditable="true" class="editor__codigo" aria-label="editor de código"></code>
+            </div>
             <button class="visualizador__highlight">Visualizar com highlight</button>
         </div>
 
@@ -52,7 +55,8 @@
             <button class="menu__lateral__direito__item menu__lateral__direito__button">Salvar projeto</button>
         </div>
     </div>    
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
