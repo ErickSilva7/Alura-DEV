@@ -3,10 +3,18 @@
 @import url(styles/centro.css);
 
 body {
+    margin: 0;
     background-color: #051D3B;
 }
 
 .conteudo {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 1440px) {
+    .conteudo {
+        display: flex;
+        justify-content: space-between;
+    }
 }

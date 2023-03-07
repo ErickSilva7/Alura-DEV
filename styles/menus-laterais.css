@@ -12,6 +12,45 @@
     width: 11.8125em;
     padding: 1em 0 1em 0;
     margin-right: 4.5875em;
+    margin-bottom: auto;
+}
+
+.itens__menu__navegacao {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.botao__navegacao {
+    margin-right: 1rem;
+    padding-top: 0.3rem;
+    border: none;
+    padding: auto;
+
+    height: 48px;
+    width: 48px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+    background: #5081FB29;
+
+    cursor: pointer;
+}
+
+.botao__navegacao__ativo {
+    margin-right: 1rem; 
+}
+
+.botao__navegacao:hover {
+    background: #5081FBA3;
 }
 
 .menu {
@@ -24,10 +63,10 @@
 
 .menu__lateral__direito {
     margin: 1rem;
-
     display: flex;
     flex-direction: column;
     width: 21.438rem;
+    margin-bottom: auto;
 }
 
 .seu__projeto {
@@ -50,8 +89,13 @@
     height: 3.5rem;
 }
 
+.menu__lateral__direito__box:hover {
+    background: #FFFFFF3D;
+}
+
 .select {
     width: 21.438rem;
+    cursor: pointer;
 }
 
 .descricao {
@@ -78,6 +122,11 @@
     border-radius: 8px;
     background: transparent;
     padding-left: 2px;
+    cursor: pointer;
+}
+
+.menu__lateral__direito__box__color__picker:hover {
+    background: transparent;
 }
 
 .menu__lateral__direito__button {
@@ -96,7 +145,18 @@
 }
 
 .menu__lateral__direito__button:hover {
-    background: rgb(150, 180, 255);
+    background: #7BA4FC;
+}
+
+.menu__lateral__direito__button:active {
+    background: linear-gradient(0deg, rgba(80, 129, 251, 0.72), rgba(80, 129, 251, 0.72)),
+linear-gradient(0deg, #7BA4FC, #7BA4FC);
+
+}
+
+.menu__lateral__direito__button:focus {
+    background: #96B9FD;
+    ;
 }
 
 @media (min-width: 1440px) {
@@ -110,6 +170,7 @@
 
     .menu__lateral__direito {
         margin: 0;
+        margin-bottom: auto;
         margin-right: 1rem;
         width: 18rem;
         display: flex;

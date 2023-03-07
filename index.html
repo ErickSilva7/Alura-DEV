@@ -12,10 +12,10 @@
 
 <body>
     <header class="cabecalho">
-        <div class="logo">
+        <a href="index.html" class="logo">
             <img src="assets/ALURA.svg" alt="Alura" class="logo__alura">
             <img src="assets/Subtract.svg" alt="DEV">
-        </div>
+        </a>
 
         <input type="text" class="barra__de__pesquisa" placeholder="Busque por algo">
 
@@ -30,8 +30,14 @@
     <div class="conteudo">
         <nav class="menu__lateral__esquerdo">
             <img src="assets/Menu.svg" alt="Menu" class="menu">
-            <a href="index.html" class="botao"><img src="assets/Editor de código on.svg" alt="Editor de codigo"></a>
-            <a href="html/comunidade.html" class="botao"><img src="assets/Comunidade off.svg" alt="Comunidade"></a>
+            <a href="index.html" class="itens__menu__navegacao">
+                <img src="assets/editor de codigo on.svg" alt="editor de código" class="botao__navegacao__ativo">
+                Editor e código
+            </a>
+            <a href="comunidade.html" class="itens__menu__navegacao">
+                <button class="botao__navegacao"><img src="assets/comunidade.svg" alt="editor de codigo"></button>
+                Comunidade
+            </a>
         </nav>
         
         <div>

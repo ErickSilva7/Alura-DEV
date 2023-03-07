@@ -41,7 +41,7 @@
     margin-top: 2rem;
 
     cursor: pointer;
-    background:  rgba(80, 129, 251, 0.08);
+    background: #5081FB14;
     border-radius: 8px;
     border: none;
     color: white;
@@ -52,14 +52,24 @@
     line-height: 24px;  
 
     width: 21.438rem;
+    height: 3.5rem;
 
     display: block;
 }
 
 .visualizador__highlight:hover {
-    background: rgba(80, 128, 251, 0.5)
+    background: #5081FB29;
 }
 
+.visualizador__highlight:active {
+    background: linear-gradient(0deg, rgba(80, 129, 251, 0.24), rgba(80, 129, 251, 0.24)),
+    linear-gradient(0deg, rgba(80, 129, 251, 0.16), rgba(80, 129, 251, 0.16));
+    
+}
+
+.visualizador__highlight:focus {
+    background: #5081FB3D;
+}
 
 @media (min-width: 1440px) {
     .editor__codigo {
@@ -72,6 +82,5 @@
         margin: 0;
         margin-top: 2rem;
         width: 47rem;
-        height: 3.5rem;
     }
 }

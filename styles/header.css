@@ -47,9 +47,18 @@
     display: none;
 }
 
+.barra__de__pesquisa:hover {
+    background: #FFFFFF3D;
+}
+
 .usuario {
+    border-radius: 8px;
     margin-left: 3.19925em;
     display: none;
+}
+
+.usuario:hover {
+    background: #FFFFFF14;
 }
 
 @media (min-width: 1440px) {
