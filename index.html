@@ -20,7 +20,7 @@
         <input type="text" class="barra__de__pesquisa" placeholder="Busque por algo">
 
         <div class="pesquisa__mobile">
-            <img src="assets/Lupa.svg" alt="Lupa">
+            <img src="assets/Lupa.svg" alt="Lupa" class="pesquisa__mobile__lupa">
             <img src="assets/Menu hamburguer.svg" alt="Menu hamburguer">
         </div>
         
@@ -49,16 +49,18 @@
 
         <div class="menu__lateral__direito">
             <img src="assets/Seu projeto.svg" alt="Seu projeto" class="seu__projeto menu__lateral__direito__item">
-            <input type="text" class="menu__lateral__direito__box menu__lateral__direito__item" placeholder="Nome do seu projeto">
-            <input type="text" class="menu__lateral__direito__box descricao menu__lateral__direito__item" placeholder="Descrição do seu projeto">
-            <img src="assets/Personalização.svg" alt="" class="personalizacao menu__lateral__direito__item">
-            <select class="menu__lateral__direito__box menu__lateral__direito__item select">
-                <option class="option">JavaScript</option>
-                <option class="option">HTML</option>
-                <option class="option">CSS</option>
-            </select>
-            <input type="color" value="#6BD1FF" class="menu__lateral__direito__box__color__picker menu__lateral__direito__item menu__lateral__direito__box">
-            <button class="menu__lateral__direito__item menu__lateral__direito__button">Salvar projeto</button>
+            <input type="text" class="menu__lateral__direito__box menu__lateral__direito__item box__tablet__width" placeholder="Nome do seu projeto">
+            <input type="text" class="menu__lateral__direito__box descricao menu__lateral__direito__item box__tablet__width" placeholder="Descrição do seu projeto">
+            <img src="assets/Personalização.svg" alt="" class="personalizacao__imagem menu__lateral__direito__item">
+            <div class="personalizacao">
+                <select class="menu__lateral__direito__box menu__lateral__direito__item select box__tablet__width__personalizacao">
+                    <option class="option">JavaScript</option>
+                    <option class="option">HTML</option>
+                    <option class="option">CSS</option>
+                </select>
+                <input type="color" value="#6BD1FF" class="menu__lateral__direito__box__color__picker menu__lateral__direito__item menu__lateral__direito__box box__tablet__width__personalizacao">
+            </div>
+            <button class="menu__lateral__direito__item menu__lateral__direito__button box__tablet__width__salva__projeto">Salvar projeto</button>
         </div>
     </div>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>

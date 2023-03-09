@@ -41,9 +41,6 @@
     line-height: 24px;
     gap: 8px;
     
-    width: 46em;
-    height: 3.5em;
-    
     display: none;
 }
 
@@ -61,13 +58,26 @@
     background: #FFFFFF14;
 }
 
+@media (min-width: 768px) {
+    .barra__de__pesquisa {
+        display: flex;
+        width: 26.938rem;
+        height: 3.5rem;
+    }
+
+    .pesquisa__mobile__lupa {
+        display: none;
+    }
+}
+
 @media (min-width: 1440px) {
     .cabecalho {
         margin: 2rem;
     }
     
     .barra__de__pesquisa {
-        display: flex;
+        width: 46em;
+        height: 3.5em;
     }
 
     .pesquisa__mobile {

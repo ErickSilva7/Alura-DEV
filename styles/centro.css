@@ -71,11 +71,22 @@
     background: #5081FB3D;
 }
 
+@media (min-width: 768px) {
+    .editor__codigo {
+        width: 38rem;
+        min-block-size: 14.625rem
+    }
+
+    .visualizador__highlight {
+        width: 44rem;
+        height: 3.5rem;
+    }
+}
+
 @media (min-width: 1440px) {
     .editor__codigo {
         margin: 0;
         width: 41rem;
-        min-block-size: 14.625rem;
     }
 
     .visualizador__highlight {
